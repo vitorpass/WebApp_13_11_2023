@@ -1,0 +1,84 @@
+﻿@model IEnumerable<WebApp_13_11_2023.Models.CadClientes>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.id_cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nome_cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.email_cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.telefone_cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.endereco_cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cidade_cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.estado_cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cep_cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.data_cadastro)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nome_cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email_cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.telefone_cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.endereco_cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cidade_cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.estado_cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cep_cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.data_cadastro)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id_cliente">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id_cliente">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id_cliente">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

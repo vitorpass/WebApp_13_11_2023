@@ -1,0 +1,55 @@
+﻿@model WebApp_13_11_2023.Models.InventarioMaquinasModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<label>ID Produto</label>
+
+<select name="id_produto" class="form-control">
+    @foreach (var item in Model.ListaProdutos)
+    {
+        <option value="@item.id_produto">@item.nome_produto</option>
+    }
+</select>
+
+<label>ID Cliente</label>
+<select name="id_cliente" class="form-control">
+    @foreach (var item in Model.ListaClientes)
+    {
+        <option value="@item.id_cliente">@item.nome_cliente</option>
+    }
+</select>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="id_produto" class="control-label"></label>
+                <input asp-for="id_produto" class="form-control" />
+                <span asp-validation-for="id_produto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ListaProdutos" class="control-label"></label>
+                <input asp-for="ListaProdutos" class="form-control" />
+                <span asp-validation-for="ListaProdutos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ListaClientes" class="control-label"></label>
+                <input asp-for="ListaClientes" class="form-control" />
+                <span asp-validation-for="ListaClientes" class="text-danger"></span>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

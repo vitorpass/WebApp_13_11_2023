@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebApp_13_11_2023.props" />
+</Project>

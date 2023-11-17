@@ -1,0 +1,80 @@
+﻿@model WebApp_13_11_2023.Models.InventarioMaquinas
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>InventarioMaquinas</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="id_produto" />
+            <div class="form-group">
+                <label asp-for="id_produto" class="control-label"></label>
+                <input asp-for="id_produto" class="form-control" />
+                <span asp-validation-for="id_produto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="id_cliente" class="control-label"></label>
+                <input asp-for="id_cliente" class="form-control" />
+                <span asp-validation-for="id_cliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nome_maquina" class="control-label"></label>
+                <input asp-for="nome_maquina" class="form-control" />
+                <span asp-validation-for="nome_maquina" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tipo_maquina" class="control-label"></label>
+                <input asp-for="tipo_maquina" class="form-control" />
+                <span asp-validation-for="tipo_maquina" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fabricante_maquina" class="control-label"></label>
+                <input asp-for="fabricante_maquina" class="form-control" />
+                <span asp-validation-for="fabricante_maquina" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="modelo_maquina" class="control-label"></label>
+                <input asp-for="modelo_maquina" class="form-control" />
+                <span asp-validation-for="modelo_maquina" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="data_aquisicao_maquina" class="control-label"></label>
+                <input asp-for="data_aquisicao_maquina" class="form-control" />
+                <span asp-validation-for="data_aquisicao_maquina" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="custo_aquisicao_maquina" class="control-label"></label>
+                <input asp-for="custo_aquisicao_maquina" class="form-control" />
+                <span asp-validation-for="custo_aquisicao_maquina" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="status_maquina" class="control-label"></label>
+                <input asp-for="status_maquina" class="form-control" />
+                <span asp-validation-for="status_maquina" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="descricao_maquina" class="control-label"></label>
+                <input asp-for="descricao_maquina" class="form-control" />
+                <span asp-validation-for="descricao_maquina" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

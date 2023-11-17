@@ -1,0 +1,79 @@
+﻿@model WebApp_13_11_2023.Models.InventarioMaquinas
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>InventarioMaquinas</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.id_produto)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.id_produto)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.id_cliente)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.id_cliente)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nome_maquina)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nome_maquina)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.tipo_maquina)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.tipo_maquina)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.fabricante_maquina)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.fabricante_maquina)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.modelo_maquina)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.modelo_maquina)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.data_aquisicao_maquina)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.data_aquisicao_maquina)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.custo_aquisicao_maquina)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.custo_aquisicao_maquina)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.status_maquina)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.status_maquina)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.descricao_maquina)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.descricao_maquina)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.id_produto">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,90 @@
+﻿@model IEnumerable<WebApp_13_11_2023.Models.InventarioSoftwares>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.id_produto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.id_cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nome_software)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.versao_software)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fabricante_software)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.licenca_software)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.data_aquisicao_software)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.custo_aquisicao_software)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.status_software)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.descricao_software)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_produto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nome_software)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.versao_software)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fabricante_software)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.licenca_software)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.data_aquisicao_software)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.custo_aquisicao_software)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.status_software)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.descricao_software)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id_software">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id_software">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id_software">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

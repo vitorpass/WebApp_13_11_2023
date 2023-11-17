@@ -1,0 +1,43 @@
+﻿@model WebApp_13_11_2023.Models.CadProdutos
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>CadProdutos</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.id_produto)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.id_produto)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nome_produto)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nome_produto)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.descricao_produto)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.descricao_produto)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.preco_produto)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.preco_produto)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.id_produto">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
