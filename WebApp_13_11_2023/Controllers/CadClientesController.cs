@@ -56,7 +56,7 @@ namespace WebApp_13_11_2023.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id_cliente,id_maquina,nome_cliente,email_cliente,telefone_cliente,endereco_cliente,cidade_cliente,estado_cliente,cep_cliente,data_cadastro")] CadClientes cadClientes)
+        public async Task<IActionResult> Create([Bind("id_cliente,nome_cliente,email_cliente,telefone_cliente,endereco_cliente,cidade_cliente,estado_cliente,cep_cliente,data_cadastro")] CadClientes cadClientes)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +88,7 @@ namespace WebApp_13_11_2023.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id_cliente,id_maquina,nome_cliente,email_cliente,telefone_cliente,endereco_cliente,cidade_cliente,estado_cliente,cep_cliente,data_cadastro")] CadClientes cadClientes)
+        public async Task<IActionResult> Edit(int id, [Bind("id_cliente,nome_cliente,email_cliente,telefone_cliente,endereco_cliente,cidade_cliente,estado_cliente,cep_cliente,data_cadastro")] CadClientes cadClientes)
         {
             if (id != cadClientes.id_cliente)
             {

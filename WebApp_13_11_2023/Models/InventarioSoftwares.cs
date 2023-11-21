@@ -8,9 +8,9 @@ namespace WebApp_13_11_2023.Models
 
         public int id_software { get; set; }
 
-        public int id_produto { get; set; }
-
         public int id_cliente { get; set; }
+
+        public int id_produto { get; set; }
 
         public string nome_software { get; set; }
 
@@ -20,9 +20,9 @@ namespace WebApp_13_11_2023.Models
 
         public string licenca_software { get; set; }
 
-        public string data_aquisicao_software { get; set; }
+        public DateTime data_aquisicao_software { get; set; }
 
-        public string custo_aquisicao_software { get; set; }
+        public decimal custo_aquisicao_software { get; set; }
 
         public string status_software { get; set; }
 

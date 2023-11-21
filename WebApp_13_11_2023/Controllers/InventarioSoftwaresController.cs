@@ -56,7 +56,7 @@ namespace WebApp_13_11_2023.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id_software,id_produto,id_cliente,nome_software,versao_software,fabricante_software,licenca_software,data_aquisicao_software,custo_aquisicao_software,status_software,descricao_software")] InventarioSoftwares inventarioSoftwares)
+        public async Task<IActionResult> Create([Bind("id_software,id_cliente,id_produto,nome_software,versao_software,fabricante_software,licenca_software,data_aquisicao_software,custo_aquisicao_software,status_software,descricao_software")] InventarioSoftwares inventarioSoftwares)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +88,7 @@ namespace WebApp_13_11_2023.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id_software,id_produto,id_cliente,nome_software,versao_software,fabricante_software,licenca_software,data_aquisicao_software,custo_aquisicao_software,status_software,descricao_software")] InventarioSoftwares inventarioSoftwares)
+        public async Task<IActionResult> Edit(int id, [Bind("id_software,id_cliente,id_produto,nome_software,versao_software,fabricante_software,licenca_software,data_aquisicao_software,custo_aquisicao_software,status_software,descricao_software")] InventarioSoftwares inventarioSoftwares)
         {
             if (id != inventarioSoftwares.id_software)
             {

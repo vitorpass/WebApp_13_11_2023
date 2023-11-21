@@ -22,6 +22,6 @@ namespace WebApp_13_11_2023.Models
 
         public string cep_cliente { get; set; }
 
-        public string data_cadastro { get; set; }
+        public DateTime data_cadastro { get; set; }
     }
 }

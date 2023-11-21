@@ -9,117 +9,117 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApp_13_11_2023
 build_property.RootNamespace = WebApp_13_11_2023
-build_property.ProjectDir = W:\users\vitor.ppinheiro1\source\repos\WebApp_13_11_2023\WebApp_13_11_2023\
+build_property.ProjectDir = W:\users\vitor.ppinheiro1\WebApp_13_11_2023\WebApp_13_11_2023\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = W:\users\vitor.ppinheiro1\source\repos\WebApp_13_11_2023\WebApp_13_11_2023
+build_property.MSBuildProjectDirectory = W:\users\vitor.ppinheiro1\WebApp_13_11_2023\WebApp_13_11_2023
 build_property._RazorSourceGeneratorDebug = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadClientes/Create.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadClientes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadClientes/Delete.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadClientes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadClientes/Details.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadClientes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadClientes/Edit.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadClientes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadClientes/Index.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadClientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadProdutos/Create.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadProdutos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkUHJvZHV0b3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadProdutos/Delete.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadProdutos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkUHJvZHV0b3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadProdutos/Details.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadProdutos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkUHJvZHV0b3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadProdutos/Edit.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadProdutos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkUHJvZHV0b3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadProdutos/Index.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/CadProdutos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkUHJvZHV0b3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/Home/Index.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/Home/Privacy.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioMaquinas/Create.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioMaquinas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb01hcXVpbmFzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioMaquinas/Delete.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioMaquinas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb01hcXVpbmFzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioMaquinas/Details.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioMaquinas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb01hcXVpbmFzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioMaquinas/Edit.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioMaquinas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb01hcXVpbmFzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioMaquinas/Index.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioMaquinas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb01hcXVpbmFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioSoftwares/Create.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioSoftwares/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb1NvZnR3YXJlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioSoftwares/Delete.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioSoftwares/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb1NvZnR3YXJlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioSoftwares/Details.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioSoftwares/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb1NvZnR3YXJlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioSoftwares/Edit.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioSoftwares/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb1NvZnR3YXJlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioSoftwares/Index.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/InventarioSoftwares/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb1NvZnR3YXJlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/Shared/Error.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/Shared/_ValidationScriptsPartial.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/_ViewImports.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/_ViewStart.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[W:/users/vitor.ppinheiro1/source/repos/WebApp_13_11_2023/WebApp_13_11_2023/Views/Shared/_Layout.cshtml]
+[W:/users/vitor.ppinheiro1/WebApp_13_11_2023/WebApp_13_11_2023/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-p2n6kc3mle

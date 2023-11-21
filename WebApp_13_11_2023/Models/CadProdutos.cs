@@ -12,6 +12,6 @@ namespace WebApp_13_11_2023.Models
 
         public string descricao_produto { get; set; }
 
-        public string preco_produto { get; set; }
+        public decimal preco_produto { get; set; }
     }
 }

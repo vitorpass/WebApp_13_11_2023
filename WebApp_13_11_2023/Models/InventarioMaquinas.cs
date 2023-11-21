@@ -6,9 +6,11 @@ namespace WebApp_13_11_2023.Models
     {
         [Key]
 
-        public int id_produto { get; set; }
+        public int id_maquina { get; set; }
 
         public int id_cliente { get; set; }
+
+        public int id_produto { get; set; }
 
         public string nome_maquina { get; set; }
 
@@ -18,9 +20,9 @@ namespace WebApp_13_11_2023.Models
 
         public string modelo_maquina { get; set; }
 
-        public string data_aquisicao_maquina { get; set; }
+        public DateTime data_aquisicao_maquina { get; set; }
 
-        public string custo_aquisicao_maquina { get; set; }
+        public decimal custo_aquisicao_maquina { get; set; }
 
         public string status_maquina { get; set; }
 

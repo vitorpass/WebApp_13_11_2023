@@ -56,7 +56,7 @@ namespace WebApp_13_11_2023.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id_produto,id_maquina,nome_produto,descricao_produto,preco_produto")] CadProdutos cadProdutos)
+        public async Task<IActionResult> Create([Bind("id_produto,nome_produto,descricao_produto,preco_produto")] CadProdutos cadProdutos)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +88,7 @@ namespace WebApp_13_11_2023.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id_produto,id_maquina,nome_produto,descricao_produto,preco_produto")] CadProdutos cadProdutos)
+        public async Task<IActionResult> Edit(int id, [Bind("id_produto,nome_produto,descricao_produto,preco_produto")] CadProdutos cadProdutos)
         {
             if (id != cadProdutos.id_produto)
             {

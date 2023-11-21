@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j2tj2pgv3kVLLN2EkA2P9/UfVBsHQCT+5LQVhsvMoXYsRnJsfRW5n+uLy/RL3kHrbAfqwKAeBHEgoNYD9ZgbIw==",
+  "dgSpecHash": "dOGmG8wSkaU8h0iWAqCp0dc/Wv4g9gkYBURXXwbWyYu2H/NdG/lP6Xk+O5rbBaoQS7gUenEfgjPxb7xeRi8Nbw==",
   "success": true,
-  "projectFilePath": "W:\\users\\vitor.ppinheiro1\\source\\repos\\WebApp_13_11_2023\\WebApp_13_11_2023\\WebApp_13_11_2023.csproj",
+  "projectFilePath": "W:\\users\\vitor.ppinheiro1\\WebApp_13_11_2023\\WebApp_13_11_2023\\WebApp_13_11_2023.csproj",
   "expectedPackageFiles": [
     "W:\\users\\vitor.ppinheiro1\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "W:\\users\\vitor.ppinheiro1\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

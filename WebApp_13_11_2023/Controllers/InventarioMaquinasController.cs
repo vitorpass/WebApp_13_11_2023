@@ -36,7 +36,7 @@ namespace WebApp_13_11_2023.Controllers
             }
 
             var inventarioMaquinas = await _context.InventarioMaquinas
-                .FirstOrDefaultAsync(m => m.id_produto == id);
+                .FirstOrDefaultAsync(m => m.id_maquina == id);
             if (inventarioMaquinas == null)
             {
                 return NotFound();
@@ -48,10 +48,7 @@ namespace WebApp_13_11_2023.Controllers
         // GET: InventarioMaquinas/Create
         public IActionResult Create()
         {
-            InventarioMaquinasModel model = new();
-            model.ListaProdutos = _context.CadProdutos.ToList();
-            model.ListaClientes = _context.CadClientes.ToList();
-            return View(model);
+            return View();
         }
 
         // POST: InventarioMaquinas/Create
@@ -59,7 +56,7 @@ namespace WebApp_13_11_2023.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id_produto,id_cliente,nome_maquina,tipo_maquina,fabricante_maquina,modelo_maquina,data_aquisicao_maquina,custo_aquisicao_maquina,status_maquina,descricao_maquina")] InventarioMaquinas inventarioMaquinas)
+        public async Task<IActionResult> Create([Bind("id_maquina,id_cliente,id_produto,nome_maquina,tipo_maquina,fabricante_maquina,modelo_maquina,data_aquisicao_maquina,custo_aquisicao_maquina,status_maquina,descricao_maquina")] InventarioMaquinas inventarioMaquinas)
         {
             if (ModelState.IsValid)
             {
@@ -91,9 +88,9 @@ namespace WebApp_13_11_2023.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id_produto,id_cliente,nome_maquina,tipo_maquina,fabricante_maquina,modelo_maquina,data_aquisicao_maquina,custo_aquisicao_maquina,status_maquina,descricao_maquina")] InventarioMaquinas inventarioMaquinas)
+        public async Task<IActionResult> Edit(int id, [Bind("id_maquina,id_cliente,id_produto,nome_maquina,tipo_maquina,fabricante_maquina,modelo_maquina,data_aquisicao_maquina,custo_aquisicao_maquina,status_maquina,descricao_maquina")] InventarioMaquinas inventarioMaquinas)
         {
-            if (id != inventarioMaquinas.id_produto)
+            if (id != inventarioMaquinas.id_maquina)
             {
                 return NotFound();
             }
@@ -107,7 +104,7 @@ namespace WebApp_13_11_2023.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!InventarioMaquinasExists(inventarioMaquinas.id_produto))
+                    if (!InventarioMaquinasExists(inventarioMaquinas.id_maquina))
                     {
                         return NotFound();
                     }
@@ -130,7 +127,7 @@ namespace WebApp_13_11_2023.Controllers
             }
 
             var inventarioMaquinas = await _context.InventarioMaquinas
-                .FirstOrDefaultAsync(m => m.id_produto == id);
+                .FirstOrDefaultAsync(m => m.id_maquina == id);
             if (inventarioMaquinas == null)
             {
                 return NotFound();
@@ -160,7 +157,7 @@ namespace WebApp_13_11_2023.Controllers
 
         private bool InventarioMaquinasExists(int id)
         {
-          return (_context.InventarioMaquinas?.Any(e => e.id_produto == id)).GetValueOrDefault();
+          return (_context.InventarioMaquinas?.Any(e => e.id_maquina == id)).GetValueOrDefault();
         }
     }
 }
